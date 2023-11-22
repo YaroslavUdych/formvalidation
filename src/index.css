@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@200;300;400&display=swap');
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background: url('../public/img/form-bg.jpg') no-repeat right/ cover;
+	width: 100%;
+	height: 100%;
+}
+#root {
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+h4 {
+	text-align: center;
+}
+.app-wrapper {
+	flex: 1 1 auto;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+.form-wrapper {
+	max-width: 700px;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+.form-side {
+	width: 50%;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	text-align: center;
+	background: url('../public/img/form-img.jpg') no-repeat right/ cover;
+	border-radius: 4px;
+	color: #f1f2f3;
+	position: relative;
+	padding: 5px;
+	font-family: 'Ysabeau Infant', sans-serif;
+	font-style: italic;
+}
+
+.form-item-wrapper {
+	width: 50%;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 12px;
+	gap: 5px;
+}
+.form-item {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
+}
+
+.form-item-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	margin-bottom: -10px;
+}
+
+.login-form-forgot-password {
+	align-self: self-end;
+}
+.login-form__checkbox {
+	align-self: self-start;
+}
+.login-text__or {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	margin: 10px 0;
+}
+.login-text__or::before,
+.login-text__or::after {
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: rgb(151, 151, 151);
+}
+.login-social {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.hidden {
+	display: none;
+}
+
+header,
+footer {
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #395b64;
+}
+.message-to-see-kittens {
+	position: absolute;
+	top: 70px;
+	right: 30px;
+	z-index: 99;
+}
+/* Media Queries */
+
+@media screen and (max-height: 700px) {
+	.form-item-wrapper {
+		padding: 0;
+	}
+}
+@media screen and (orientation: portrait) and (max-width: 560px) {
+	.form-side {
+		display: none;
+	}
+	.form-item-wrapper {
+		width: 100%;
+		height: 100%;
+		padding: 0;
+	}
+}
+
+@media screen and (orientation: landscape) and (max-height: 560px) {
+	.form-side {
+		display: none;
+	}
+	.form-item-wrapper {
+		width: 100%;
+		height: 100%;
+		padding: 0;
+	}
+}
