@@ -12,10 +12,10 @@ function App() {
 		<div className="app-wrapper">
 			<Header />
 			<Routes>
-				<Route path="/" element={<Main />} />
-				<Route path="/signup" element={<SignUp formType="signup" />} />
-				<Route path="/login" element={<LogIn formType="login" />} />
-				<Route path="/forgotpassword" element={<ForgotPassword formType="forgotpassword" />} />
+				<Route path="/formvalidation" element={<Main />} />
+				<Route path="/formvalidation/signup" element={<SignUp formType="signup" />} />
+				<Route path="/formvalidation/login" element={<LogIn formType="login" />} />
+				<Route path="/formvalidation/forgotpassword" element={<ForgotPassword formType="forgotpassword" />} />
 			</Routes>
 		</div>
 	)
