@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/form-validation/static/css/main.5a7bcad9.css",
+    "main.js": "/form-validation/static/js/main.207b79e9.js",
+    "static/js/787.6c2e1b7c.chunk.js": "/form-validation/static/js/787.6c2e1b7c.chunk.js",
+    "static/media/form-img.jpg": "/form-validation/static/media/form-img.377fceb428691b993da8.jpg",
+    "static/media/form-bg.jpg": "/form-validation/static/media/form-bg.0786d5e543140f978893.jpg",
+    "index.html": "/form-validation/index.html",
+    "main.5a7bcad9.css.map": "/form-validation/static/css/main.5a7bcad9.css.map",
+    "main.207b79e9.js.map": "/form-validation/static/js/main.207b79e9.js.map",
+    "787.6c2e1b7c.chunk.js.map": "/form-validation/static/js/787.6c2e1b7c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a7bcad9.css",
+    "static/js/main.207b79e9.js"
+  ]
+}

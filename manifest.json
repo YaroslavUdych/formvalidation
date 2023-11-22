@@ -1,0 +1,8 @@
+{
+	"short_name": "form",
+	"name": "form validation",
+
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#000000"
+}
