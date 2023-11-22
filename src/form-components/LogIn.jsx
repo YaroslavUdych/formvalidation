@@ -70,7 +70,7 @@ const LogIn = () => {
 	const handleOpen = () => setOpen(true)
 	const handleClose = () => {
 		setOpen(false)
-		window.location.reload()
+		window.location = window.location.href
 	}
 
 	//for submit form

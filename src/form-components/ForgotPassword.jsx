@@ -36,7 +36,7 @@ const ForgotPassword = () => {
 	const handleOpen = () => setOpen(true)
 	const handleClose = () => {
 		setOpen(false)
-		window.location.reload()
+		window.location = window.location.href
 	}
 
 	// for animation
