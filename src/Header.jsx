@@ -16,7 +16,7 @@ import Button from '@mui/material/Button'
 import { NavLink } from 'react-router-dom'
 
 const drawerWidth = 240
-const navItems = [{ name: 'Log In', path: '/login' }]
+const navItems = [{ name: 'Log In', path: '/formvalidation/login' }]
 
 const Header = (props) => {
 	const { window } = props
@@ -62,7 +62,7 @@ const Header = (props) => {
 						<MenuIcon />
 					</IconButton>
 					<Typography variant="h6" component="div" sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}>
-						<Button sx={{ color: '#fff' }} component={NavLink} to="/">
+						<Button sx={{ color: '#fff' }} component={NavLink} to="/formvalidation">
 							Form Validation
 						</Button>
 					</Typography>

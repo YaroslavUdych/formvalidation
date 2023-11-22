@@ -108,7 +108,7 @@ const LogIn = () => {
 				<div className="form-item-text">
 					<h2>Welcome back!</h2>
 					<p>
-						Don't have an account? <NavLink to="/signup">Sign Up</NavLink>
+						Don't have an account? <NavLink to="/formvalidation/signup">Sign Up</NavLink>
 					</p>
 				</div>
 				<form id="login-form" action="#" className="form-item" onSubmit={loginFormHendler}>
@@ -178,7 +178,7 @@ const LogIn = () => {
 							checkInput(e.target.value, validate.isEmpty, setPassword)
 						}}
 					/>
-					<NavLink to="/forgotpassword">Forgot password?</NavLink>
+					<NavLink to="/formvalidation/forgotpassword">Forgot password?</NavLink>
 
 					<FormControlLabel
 						className="login-form__checkbox"
